@@ -1,0 +1,3 @@
+ "<!DOCTYPE HTML>"
+ There are a number of different versions of HTML and the latest is HTML5. The purpose of writing the above line of code in an HTML file is to let the web browser know that which version of HTML it is using when getting/loading to that webpage.
+ Writing the above line of code is our way of telling the web browser that this webpage is written in HTML5.
