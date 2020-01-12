@@ -1,0 +1,19 @@
+.line{
+  height: 4px;
+  margin-top: 22px;
+  background-color: #3366cc;
+}
+.description, ul{
+  font-size: 21px;
+  margin-top: 22px;
+  margin-left: 36px;
+}
+.heading, .about{
+  font-size: 31px;
+  font-weight: bold;
+}
+.heading{
+  font-family: sans-serif;
+  margin-top: 32px;
+  margin-left: 36px;
+}
