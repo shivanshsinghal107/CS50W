@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Contact Me</title>
+  <link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+  <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    button{
+      font-size: 25px;
+    }
+    button:hover{
+      color: white;
+      background-color: #3366cc;
+    }
+    input{
+      height: 30px;
+    }
+    input[type=text]{
+      width: 200px;
+    }
+    input[type=email]{
+      width: 300px;
+    }
+  </style>
+ </head>
+ <body>
+   <div class="alert alert-info" role="alert">
+   Check out my LinkedIn, GitHub, Kaggle Profiles.
+   </div>
+   <button type="button" class="btn btn-primary btn-lg btn-block" onclick = "window.location.href='https://www.linkedin.com/in/shivansh-singhal-9b9072183'">LinkedIn Profile</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block" onclick = "window.location.href='https://github.com/shivanshsinghal107'">GitHub Profile</button>
+    <button type="button" class="btn btn-primary btn-lg btn-block" onclick = "window.location.href='https://www.kaggle.com/shivanshsinghal107'">Kaggle Profile</button><br><br>
+    <div class="alert alert-secondary" role="alert">
+    Fill the form given below if you want to contact me.
+    </div>
+   <div class = "heading">Fill the form</div>
+   <div class = "description">
+     <form>
+       Name * :<br><input type = "text" name = "name" placeholder = "Name">
+       <br><br>
+       Country * :<br><input name = "country" list = "countries" placeholder="Country">
+       <datalist id = "countries">
+         <option value = "India">
+         <option value = "United Sates">
+         <option value = "Other">
+       </datalist>
+       <br><br>
+       School/ University/ Organization :<br><input name = "company" type = "text" placeholder="Company">
+       <br><br>
+       Email * :<br><input type = "email" name = "name" placeholder="email">
+       <br><br>
+       <button type = "button" onclick = "window.location.href='thank.html'">Submit</button>
+     </form>
+     <br>
+     <a href = "index.html">Back</a>
+     <br><br>
+   </div>
+ </body>
+</html>
