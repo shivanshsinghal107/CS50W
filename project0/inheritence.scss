@@ -1,0 +1,15 @@
+%message{
+  font-size: 15px;
+  font-family: cursive;
+  padding: 5px;
+}
+
+.success{
+  @extend %message;
+  background-color: green;
+}
+
+.primary{
+  @extend %message;
+  background-color: #3366cc;
+}
