@@ -3,15 +3,19 @@
  <head>
   <title>Interests</title>
   <link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
-  <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <style>
     li{
       padding: 5px;
     }
-    img{
-      height: auto;
-      width: 50%;
-    }
+    /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 60%;
+      margin: auto;
+  }
   </style>
  </head>
  <body>
@@ -24,49 +28,47 @@
      </ul>
      Now here I have a real interest of watching Movies & Series, so I am showcasing some of my watched stuff with the help of an Image Carousel.<br><br>
    </div>
-   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-   <div class="carousel-inner">
+   <div align="center" id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+    <li data-target="#demo" data-slide-to="5"></li>
+    <li data-target="#demo" data-slide-to="6"></li>
+    <li data-target="#demo" data-slide-to="7"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://beautieswallpapers.com/wp-content/uploads/2018/05/GOT-Stark-Wallpaper-1024x640.jpg" class="d-block w-100" alt="GOT">
+      <img class="center-block" src="https://wallpapercave.com/wp/wp2376032.jpg" alt="GOT">
     </div>
     <div class="carousel-item">
-      <img src="https://www.wallpapermaiden.com/wallpaper/507/download/3840x2160/breaking-bad-walter-and-jesse.jpg" class="d-block w-100" alt="Breaking Bad">
+      <img class="center-block" src="https://www.wallpapermaiden.com/wallpaper/507/download/3840x2160/breaking-bad-walter-and-jesse.jpg" alt="Breaking Bad">
     </div>
     <div class="carousel-item">
-      <img src="http://images6.fanpop.com/image/photos/42700000/Avengers-Endgame-2019-the-avengers-42730725-1600-900.jpg" class="d-block w-100" alt="Avengers Endgame">
+      <img class="center-block" src="http://images6.fanpop.com/image/photos/42700000/Avengers-Endgame-2019-the-avengers-42730725-1600-900.jpg" alt="Avengers Endgame">
     </div>
     <div class="carousel-item">
-      <img src="https://images2.alphacoders.com/890/thumb-1920-890442.jpg" class="d-block w-100" alt="Silicon Valley">
+      <img class="center-block" src="https://images2.alphacoders.com/890/thumb-1920-890442.jpg" alt="Silicon Valley">
     </div>
     <div class="carousel-item">
-      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dddb8beb-7509-4c66-bc59-5e64fc25d614/d7stsi0-79518be2-f740-4596-aaa0-f8d9046e4ab2.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RkZGI4YmViLTc1MDktNGM2Ni1iYzU5LTVlNjRmYzI1ZDYxNFwvZDdzdHNpMC03OTUxOGJlMi1mNzQwLTQ1OTYtYWFhMC1mOGQ5MDQ2ZTRhYjIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.R6fmW-0hu9YJmDR8nWK3aZDh6het-N-fNWGTK5Uravs" class="d-block w-100" alt="TMNT">
+      <img class="center-block" src="https://images.wallpapersden.com/image/wxl-money-heist_66878.jpg"  alt="Money Heist">
     </div>
     <div class="carousel-item">
-      <img src="https://wallpapersite.com/images/pages/pic_h/17979.jpg" class="d-block w-100" alt="John Wick Parabellum">
+      <img class="center-block" src="https://wallpapersite.com/images/pages/pic_h/17979.jpg" alt="John Wick Parabellum">
     </div>
     <div class="carousel-item">
-      <img src="https://images8.alphacoders.com/105/1052054.jpg" class="d-block w-100" alt="Sonic: The Hedgehog">
+      <img class="center-block" src="https://wallpapercave.com/wp/wp2015134.jpg" alt="Mad Max Fury Road">
     </div>
+    <div class="carousel-item">
+      <img class="center-block" src="http://straightfromamovie.com/wp-content/uploads/2018/04/ready-player-one-wallpaper-1024x576.jpg" alt="Ready Player One">
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
   </div>
-  <br><br>
-  <div class="container">
-  <div class="row">
-    <div class="col">
-      Series
-    </div>
-    <div class="col">
-      Movies
-    </div>
   </div>
-</div>
  </body>
 </html>
