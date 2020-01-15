@@ -17,3 +17,15 @@
   margin-top: 32px;
   margin-left: 36px;
 }
+
+@media (min-width: 500px){
+  .heading{
+    color: black;
+  }
+}
+
+@media (max-width: 499px){
+  .heading{
+    color: orange;
+  }
+}
